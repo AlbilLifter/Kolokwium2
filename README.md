@@ -12,3 +12,8 @@ docker rm apache
 
 docker rmi httpd
 
+Komendy zad 2
+
+docker build -t app .
+
+docker run --name application -p 5000:5000 -d app
